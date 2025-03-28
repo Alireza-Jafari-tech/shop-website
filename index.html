@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>سایت فروشگاهی</title>
     <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/89068190ea.js"
@@ -32,7 +32,7 @@
               /></a>
             </div>
             <div id="top-nav-search-bar">
-              <form action="#" method="post">
+              <form action="#" method="post" id="site-top-search-bar">
                 <input
                   type="text"
                   placeholder="نام کالا، برند یا دسته بندی موردنظر"
@@ -45,7 +45,7 @@
               <i></i>
               <a href="#">ورود</a>
               <span> / </span>
-              <a href="#">ثبت نام کنید</a>
+              <a href="#">ثبت نام</a>
             </div>
             <div id="login-logout-outer-icon">
               <a href="#"><i></i></a>
@@ -54,47 +54,56 @@
         </div>
         <div id="header-bottom-half">
           <nav id="nav">
-            <ul>
+            <div class="menu-toggle" id="menu-toggle">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+          </div>
+            <ul id="website-menu">
               <li class="nav-main-items">
                 <a href="#">کالای دیجیتال<i></i></a>
                 <div class="submenu-wrapper">
                   <div>
                     <ul>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
+                      <li><a href="#">کیف و کاور گوشی</a></li>
+                      <li><a href="#">پاور بانک (شارژر همراه)</a></li>
+                      <li><a href="#">پایه نگهدارنده گوشی</a></li>
                     </ul>
                   </div>
                   <div>
                     <ul>
-                      <li><a href=""></a></li>
-                      <li><a href=""></a></li>
-                      <li><a href=""></a></li>
+                      <li><a href="">سامسونگ</a></li>
+                      <li><a href="">شیائومی</a></li>
+                      <li><a href="">اپل</a></li>
                     </ul>
                   </div>
                   <div>
                     <ul>
-                      <!-- <li><a href=""></a></li> -->
+                      <li><a href="#">واقعیت مجازی</a></li>
                     </ul>
                   </div>
                   <div>
                     <ul>
-                      <!-- <li><a href=""></a></li> -->
+                      <li><a href="">مچ بند و ساعت هوشمند</a></li>
                     </ul>
                   </div>
                 </div>
               </li>
-              <li><a href="#">خودرو، ابزار و اداری</a></li>
-              <li><a href="#">مد و پوشاک</a></li>
-              <li><a href="#">زیبایی و سلامت</a></li>
-              <li><a href="#">خانه و آشپرخانه</a></li>
-              <li><a href="#">کتاب، لازم التحریر و هنر</a></li>
+              <li class="nav-main-items">
+                <a href="#">خودرو، ابزار و اداری</a>
+              </li>
+              <li class="nav-main-items"><a href="#">مد و پوشاک</a></li>
+              <li class="nav-main-items"><a href="#">زیبایی و سلامت</a></li>
+              <li class="nav-main-items"><a href="#">خانه و آشپرخانه</a></li>
+              <li class="nav-main-items">
+                <a href="#">کتاب، لازم التحریر و هنر</a>
+              </li>
             </ul>
           </nav>
           <div id="header-info">
-            <a href="#">سوپرمارکت</a>
+            <a href="#" class="nav-main-items">سوپرمارکت</a>
             <span> | </span>
-            <a href="#">تخفیف ها و پیشنهاد ها</a>
+            <a href="#" class="nav-main-items">تخفیف ها و پیشنهاد ها</a>
           </div>
         </div>
       </div>
@@ -102,34 +111,40 @@
     <main>
       <section id="hero">
         <div class="container grid-box-container">
-          <div style="grid-area: 1 / 1 / span 1 / span 3">
+          <div class="hero back-to-school">
             <a href="#">
               <img
-                src="/images/1fcaf4d3bc444859b3ef22319d692161w_1140h_78r_kjpg.jpg"
+                src="images/1fcaf4d3bc444859b3ef22319d692161w_1140h_78r_kjpg.jpg"
                 alt=""
               />
             </a>
           </div>
-          <div style="grid-column: 1 / 2; grid-row: 2 / 3">
+          <div
+            class="hero-small-picture-1"
+          >
             <a href="#">
               <img
-                src="/images/16a353549d60425b909edc4812d0b5b4w_376h_188r_kgif.gif"
+                src="images/16a353549d60425b909edc4812d0b5b4w_376h_188r_kgif.gif"
                 alt=""
               />
             </a>
           </div>
-          <div style="grid-area: 3 / 1 / 4 / span 1">
+          <div
+            class="hero-small-picture-2"
+          >
             <a href="#">
               <img
-                src="/images/86613ab8505b425096bcf40a546419dew_376h_188r_kjpg.jpg"
+                src="images/86613ab8505b425096bcf40a546419dew_376h_188r_kjpg.jpg"
                 alt=""
               />
             </a>
           </div>
-          <div style="grid-area: 2 / 2 / span 2 / span 2">
+          <div
+            class="hero-big-picture"
+          >
             <a href="#">
               <img
-                src="/images/bbb7a4c3fcac4e1a960fe6a73f4fa3b6w_749h_393r_kjpg.jpg"
+                src="images/bbb7a4c3fcac4e1a960fe6a73f4fa3b6w_749h_393r_kjpg.jpg"
                 alt=""
               />
             </a>
@@ -144,7 +159,7 @@
               <div class="offer-section-intro-picture">
                 <a href="#"
                   ><img
-                    src="/images/6f06c194614d41668b6706b896468d58w_165h_287r_kpng.png"
+                    src="images/6f06c194614d41668b6706b896468d58w_165h_287r_kpng.png"
                     alt=""
                 /></a>
                 <!-- show all button -->
@@ -301,11 +316,11 @@
       <section class="slider-offer-section second">
         <div class="container">
           <div class="product-slider">
-            <div class="right">
+            <div class="right;">
               <div class="offer-section-intro-picture">
                 <a href="#"
                   ><img
-                    src="/images/6f06c194614d41668b6706b896468d58w_165h_287r_kpng.png"
+                    src="images/6f06c194614d41668b6706b896468d58w_165h_287r_kpng.png"
                     alt=""
                 /></a>
                 <!-- show all button -->
