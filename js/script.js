@@ -17,6 +17,7 @@ var swiper1 = new Swiper(".mySwiper1", {
     992: { slidesPerView: 3 },  // Tablets
     768: { slidesPerView: 2 },  // Small tablets
     576: { slidesPerView: 1 },  // Mobile phones
+    200: { slidesPerView: 1 },  // Mobile phones
   },
 });
 
@@ -40,6 +41,7 @@ var swiper2 = new Swiper(".mySwiper2", {
     960 : { slidesPerView: 3 },  // Small tablets
     900: { slidesPerView: 2 },
     635: { slidesPerView: 1 },  // Mobile phones
+    200: { slidesPerView: 1 },  // Mobile phones
   },
 });
 
